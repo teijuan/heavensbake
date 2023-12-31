@@ -1,0 +1,37 @@
+<!-- Tei did stuff here. -->
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="wrapper">
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      <img style="width: 1.2em; margin-top: .7em; margin-right: .2em; float: left;" src="/assets/logo.svg">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        
+        <article class="post">
+        
+          <header class="post-header">
+            <h1 class="post-title" style="text-align: center;">{{ page.title | escape }}</h1>
+          </header>
+        
+          <div class="post-content">
+            {{ content }}
+          </div>
+        
+        </article>
+      </div>
+    </main>
+    
+  </body>
+
+</html>

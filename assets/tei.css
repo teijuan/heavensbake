@@ -1,0 +1,59 @@
+/* Tei did stuff.. Nvm, he did this whole sheet here.
+   \o/
+    B  
+    ll
+*/
+
+.filmCover{
+    width: 30%;
+    margin: .5em;
+    float: left;
+}
+
+
+.imgCarousel{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    max-height: 150px;
+//    -ms-overflow-style: none;
+//    scrollbar-width: none;
+}
+
+// .imgCarousel::-webkit-scrollbar {
+//     display: none;
+// }
+
+.imgCarousel img{
+    max-height: 150px;
+}
+
+.buttonBuy {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+}
+
+.ribbon {
+    font-size: 14px;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    right: 0px;
+    top: -20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:rgb(54, 54, 136);
+    color: white;
+}
+
+blockquote {
+    font-style: normal ;
+    color: $grey-color;
+}

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!-- Tei did stuff here. -->
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+  
+  <p style="width: 100%;float: right">
+    <img src="/assets/img/name/{{ page.slug }}.jpg" alt="icon" style="width: 30%;margin-right: 1.0em;float: left;">
+    {% if page.excerpt %}{{ page.excerpt }}{% endif %}
+  </p>
+    
+  <br>
+
+  {{ content }}
+
+</article>
