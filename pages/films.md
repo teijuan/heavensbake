@@ -9,9 +9,9 @@ permalink: /films/
     {% for item in sorted %}
       <a href="{{ item.url }}">
         {% if item.image %}
-        <img class="filmCover" src="/assets/img/missingCover.jpg">
+        <img class="filmCover" src="{{ site.url }}/assets/img/films/{{ item.slug }}.jpg" alt="{{ item.slug }}">
         {% else %}
-        <img class="filmCover" src="/assets/img/thumb/{{ item.slug }}.jpg" alt="{{ item.film }}">
+        <img class="filmCover" src="{{ site.url }}/assets/img/missingCover.jpg">
         {% endif %}
       </a>
     {% endfor %}
