@@ -6,7 +6,7 @@ description: >-
 baseurl: ""
 url: ""
 twitter_username: teijuanart
-google_analytics: 'G-9SSX7F4CJH'
+google_analytics: G-9SSX7F4CJH
 
 theme: minima
 plugins:
