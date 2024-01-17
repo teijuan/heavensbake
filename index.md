@@ -18,10 +18,10 @@ For all those who enjoy the wonder of expecting, let's take the niche to a new l
 
 Any kind of support for keep the project growing is appreciated:
 
-- Commissions
-- Donations
-- ~~Merch shopping~~ (Soon)
-- Advertising
+- [Commissions](https://teijuan.com/tos/)
+- [Donations](https://ko-fi.com/teijuan/)
+- Merch shopping (Soon)
+- [Advertising](/advertising)
 - Ideas and feedbacks
 
 ## Participation

@@ -1,12 +1,14 @@
 ---
 layout: page
 ---
-{{ page.date | date: "%b %m, %Y"  }} • {{ site.data.ratings[page.rating] }} • {{ page.duration }}
-  <p style="width: 100%;float: right">
-    <img class="filmCover" src="{{ site.url }}/assets/img/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
-
-   {{ page.excerpt }}
-   <br><br>
+{% if page.isWip != true %}
+{{ page.released | date: "%b %m, %Y"  }} • {{ site.data.ratings[page.rating] }} • {{ page.duration }}
+{% endif %}
+<p style="width: 100%;float: right">
+  <img class="filmCover" src="{{ site.url }}/assets/img/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
+  
+  {{ page.excerpt }}
+  <br><br>
 
    <!-- Authors -->
    {% for item in page.author  %}
@@ -42,12 +44,21 @@ layout: page
   {%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
 
   <!-- Cast -->
-  {% if page.cast %}
-  <h2>Cast</h2>
-  {% include carouselCast.html %} {% endif %}
+  {%- if page.cast -%}
+    <h2>Cast</h2>
+    {% include carouselCast.html %}
+  {%- endif -%}
 
   {{ content }}
-
+  
+  {%- if page.trivia -%}
+    <h2>Trivia</h2>
+    {%- for item in page.trivia  -%}
+      <blockquote>{{ item }}<br></blockquote>
+    {%- endfor -%}
+  {%- endif -%}
+  
+  
   <!-- Critiques -->
   {% for item in page.critiques %}
   <blockquote>
@@ -55,6 +66,6 @@ layout: page
     - {{ item.name }}  
     <br>
   </blockquote>
-    {% endfor %}
+    {%- endfor -%}
 
 </article>
