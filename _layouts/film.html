@@ -40,13 +40,13 @@ layout: page
   <iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idyt }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
   {% endif %}
 
-  {%- if page.lngu -%} {%- include btnGumroad.html -%} {%- endif -%}
+  {%- if page.idgu -%} {%- include btnGumroad.html -%} {%- endif -%}
   {%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
 
   <!-- Cast -->
   {%- if page.cast -%}
-    <h2>Cast</h2>
-    {% include carouselCast.html %}
+      <h2>Cast</h2>
+      {% include carouselCast.html %}
   {%- endif -%}
 
   {{ content }}
