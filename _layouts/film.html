@@ -24,6 +24,10 @@ layout: page
     <br>
   {% endfor %}
 
+  {%- if page.guestsOpen == true -%}
+  {% include admonition.html type="tip" title="Participations Open!" body="We might include your character on a TV screen, a calendar or as a plush in this work. Contact us for further info." %}
+  {%- endif -%}
+
   </p>
 
   <!-- Gallery -->
