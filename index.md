@@ -24,8 +24,4 @@ Any kind of support for keep the project growing is appreciated:
 - [Advertising](/advertising)
 - Ideas and feedbacks
 
-## Participation
-
-Selection of novels and protagonists for our films is strict, however, people can have their characters participating for a reasonable amount, depending on the level of appearance of such character, from a simple static picture from a fully rigged model.
-
-Want to see your oc in our next films? [Contact Tei!](https://teijuan.com/contact)
+Want to see your oc or story in our next films? [Contact Tei!](https://teijuan.com/contact)
