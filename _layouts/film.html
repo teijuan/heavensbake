@@ -25,10 +25,14 @@ layout: page
   {% endfor %}
 
   {%- if page.guestsOpen == true -%}
-  {% include admonition.html type="tip" title="Participations Open!" body="We might include your character on a TV screen, a calendar or as a plush in this work. Contact us for further info." %}
+  {% include admonition.html type="tip" title="Participations Open!" body="We might include your character on a TV screen, a calendar or as a plush in this work. Contact Tei Juan for further info." %}
   {%- endif -%}
 
   </p>
+
+  {%- if page.idyt -%} {%- include btnYoutube.html -%} {%- endif -%}
+  {%- if page.idgu -%} {%- include btnGumroad.html -%} {%- endif -%}
+  {%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
 
   <!-- Gallery -->
   {% if page.gallery %} 
@@ -43,9 +47,6 @@ layout: page
   {% if page.idyt %} 
   <iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idyt }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
   {% endif %}
-
-  {%- if page.idgu -%} {%- include btnGumroad.html -%} {%- endif -%}
-  {%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
 
   <!-- Cast -->
   {%- if page.cast -%}
