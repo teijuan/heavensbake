@@ -4,7 +4,7 @@ menu:
 #- {name: 'Models',   url: '/models'}
 - {name: 'Advertising', url: '/advertising'}
 - {name: 'Films', url: '/films'}
-- {name: 'Contact', url: '/contact'}
+- {name: 'Contact', url: 'https://teijuan.com/contact'}
 
 pagination:
   next_page: 'Newer'
