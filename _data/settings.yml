@@ -1,0 +1,17 @@
+menu:
+#- {name: 'Shop<sup><span style="text-shadow: 0px 0px 2px #ffaa00"><b>NEW!</b></span></sup>',   url: 'https://shop.heavensbake.com/'}
+#- {name: 'Artworks', url: '/artworks'}
+#- {name: 'Models',   url: '/models'}
+- {name: 'Advertising', url: '/advertising'}
+- {name: 'Films', url: '/films'}
+- {name: 'Contact', url: '/contact'}
+
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Share'
+
+related_posts: 'You may also enjoy:'
+
+bdgNew: '<sup><span style="text-shadow: 0px 0px 2px #ffaa00">**NEW!**</span></sup>'
