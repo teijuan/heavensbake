@@ -2,7 +2,7 @@ title: Heavensbake Films
 author: Tei Juan
 email: tei-juan@hotmail.com
 description: >-
-  Artists collaborating on anthro/human pregnancy films.
+  2023-2024
 baseurl: ""
 url: ""
 google_analytics: G-9SSX7F4CJH
@@ -13,6 +13,9 @@ plugins:
 
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    permalink: /blog/:slug
   films:
     output: true
     permalink: /film/:slug
@@ -20,8 +23,16 @@ collections:
     output: true
     permalink: /name/:slug
     layout: name
+  characters:
+    output: true
+    permalink: /bio/:slug
 
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   - scope:
       path: ""
       type: "films"
@@ -32,6 +43,13 @@ defaults:
       type: "names"
     values:
       layout: "name"
-
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: bio
+      image: /assets/img/bio/:slug/:slug.jpg
 
 signatureTei: João M. Teixeira, aka. Tei. Juan
+
+show_excerpts: true

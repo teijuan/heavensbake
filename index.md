@@ -5,16 +5,7 @@ offMenu: true
 isWip: true
 ---
 
-<b>{{ site.title }}</b> is a 3d animation project created by [Tei Juan](https://teijuan.com/) with a few key proposals:
-
-- Films of popular OCs which are often seen pregnant
-- Pay or be paid for participating on such films
-
-So far there's already [a short animation](/film/0000001) finished and one [in progress](/film/0000002)
-
-## A brand new venture for an ol' good niche
-
-For all those who enjoy the wonder of expecting, let's take the niche to a new level together.
+<b>{{ site.title }}</b> is a studio created by [Tei Juan](https://teijuan.com/) which a main focus on specific niches that aren't much explored by the great cinema industry.
 
 Any kind of support for keep the project growing is appreciated:
 
