@@ -1,6 +1,6 @@
-title: Heavensbake Films
+title: Heavensbake Studios
 author: Tei Juan
-email: tei-juan@hotmail.com
+email: teijuan@heavensbake.com
 description: >-
   2023-2024
 baseurl: ""
@@ -16,6 +16,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
+  clips:
+    output: true
+    permalink: /clip/:name
   films:
     output: true
     permalink: /film/:slug
@@ -31,6 +34,11 @@ defaults:
   - scope:
       path: ""
       type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "clips"
     values:
       layout: "post"
   - scope:
