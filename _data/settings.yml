@@ -6,7 +6,7 @@ menu:
 
 social:
 - {name: 'youtube', url: 'https://youtube.com/@heavensbake'}
-- {name: 'envelope', url: 'mailto:teijuan@heavensbake.com'}
+- {name: 'envelope', url: 'mailto:contact@heavensbake.com'}
 - {icon: 'rss-square', link: '/feed.xml'}
 
 pagination:
