@@ -1,7 +1,7 @@
 menu:
 - {name: 'Clips', url: '/clips'}
 - {name: 'Films', url: '/films'}
-- {name: 'Advertising', url: '/advertising'}
+- {name: 'Shop', url: 'https://shop.heavensbake.com'}
 - {name: 'Contact', url: 'https://teijuan.com/contact'}
 
 social:
