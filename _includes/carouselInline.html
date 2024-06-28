@@ -1,8 +1,8 @@
 <div class="imgCarousel">
  {% assign array_items = include.imag | split: ", " %}
  {% for item in array_items %}
-    <a href="/assets/img/{{ item }}">
-      <img src="/assets/img/{{ item }}" alt="">
+    <a href="/assets/images/{{ item }}">
+      <img src="/assets/images/{{ item }}" alt="">
     </a>
   {% endfor %}
 </div>

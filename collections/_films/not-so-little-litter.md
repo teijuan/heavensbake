@@ -22,11 +22,6 @@ gallery:
 - 002.jpg
 - 003.jpg
 - 004.jpg
-
-callout:
-- info
-- Support this project
-- We are offering spaces for other OCs appearing as a way to help funding the work:<br>- (1) TV screen<br>- (3) Calendars<br>- (2) 3d plushes<br>- (1) Poster<br>Contact <a href="https://teijuan.com/contact">Tei Juan</a> for further info.
 ---
 
 Inspired by a [web novel](https://www.furaffinity.net/view/47915200/) written by Shizuno, "{{ page.title }}" is the first 3d animated film of {{ site.title }} (probably the first of the history as well) fully focused on furry pregnancy progression, starring Nyia, a character created by [TheNyPod4](https://twitter.com/nypod4/).

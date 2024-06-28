@@ -1,9 +1,10 @@
 ---
 title: Tei Juan
+id: 1
 joined: 2023-09-26
-excerpt: 2D concept artist, modeler, animator. Founder and current administrator of Heavensbake Films
+excerpt: 2D concept artist, modeler, animator. Founder of Heavensbake Studios
 ---
 
-João Marcelo Teixeira, aka. **Tei Juan** is a 22 y. male artist known mainly for drawing pregnant critters from many species.
+John M. Teixeira, aka. **Tei Juan** is a 23 y. male artist known mainly for drawing pregnant critters from many species.
 
-[\[Portfolio\]](https://teijuan.com/artworks/)
+[\[Portfolio\]](https://teijuan.com/)

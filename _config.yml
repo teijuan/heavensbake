@@ -1,27 +1,16 @@
 title: Heavensbake Studios
-author: Tei Juan
-email: contact@heavensbake.com
-description: >-
-  2023-2024
-baseurl: ""
-url: ""
-google_analytics: G-9SSX7F4CJH
+description: Pregnancy and motherhood concepts
+show_downloads: true
+google_analytics: 
+theme: jekyll-theme-modernist
 
-theme: minima
-plugins:
-  - jekyll-feed
 
 collections_dir: collections
 collections:
-  posts:
-    output: true
-    permalink: /blog/:slug
-  clips:
-    output: true
-    permalink: /clip/:name
   films:
     output: true
     permalink: /film/:slug
+    layout: film
   names:
     output: true
     permalink: /name/:slug
@@ -34,11 +23,6 @@ defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "clips"
     values:
       layout: "post"
   - scope:
@@ -56,7 +40,7 @@ defaults:
       type: "characters"
     values:
       layout: bio
-      image: /assets/img/bio/:slug/:slug.jpg
+      image: /assets/images/bio/:slug/:slug.jpg
 
 signatureTei: João M. Teixeira, aka. Tei. Juan
 

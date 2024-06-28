@@ -12,6 +12,10 @@ layout: default
     </h1>
   {%- endif -%}
 
+  {%- if page.quote -%}
+  <blockquote class="home-quote">{{ page.quote }}</blockquote>
+  {%- endif -%}
+
   {{ content }}
 
   {%- if site.posts.size > 0 -%}

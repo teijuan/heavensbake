@@ -1,27 +1,30 @@
-<!-- Tei did stuff here. -->
-<header class="site-header" role="banner">
-  
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a rel="author" href="{{ "/" | relative_url }}">
-      <img style="width: 1.2em; margin-top: .7em; margin-right: .2em; float: left;" src="/assets/logo.svg">
-    </a>
-
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
-    </a>
-
-    <div class="site-nav">
-      <nav class="menu-content">
-        {% for item in site.data.settings.menu %}
-          {% if item.first_char == '/' %}
-            <a class="page-link"  href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
-          {% else %}
-             <a class="page-link"  href="{{ item.url }}">{{ item.name }}</a>
-          {% endif %}
-        {% endfor %}
-      </nav>
-    </div>
+<header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+  <div class="logo">
+  <a href="{{ site.url }}">
+    <img src="/assets/images/heavensbake-logo-blue.svg" style="float:left; width: 36px; margin-right: 10px">
+    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+  </a>
+    {% if site.description or site.github.project_tagline %}
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
+    {% endif %}
   </div>
+
+  <ul class="buttons-menu-1">
+    {% for item in site.data.settings.medias %}
+    <li>
+      {% assign first_char = item.link | slice: 0 %}
+      {% if first_char == '/' %}
+      <a href="{{ site.url }}/{{ item.link }}"><strong>{{ item.name }}</strong></a></li>
+      {% else %}
+      <a href="{{ item.link }}"><strong>{{ item.name }}</strong></a></li>
+      {% endif %}
+      {% endfor %}
+      <li class="btn-donate">
+        <a href="https://ko-fi.com/teijuan"><strong>Support <3</strong></a>
+      </li>
+  </ul>
 </header>
+
+<!--
+  <sup>[🢅]</sup>
+-->

@@ -1,0 +1,20 @@
+<div class="imgCarousel">
+  <ul>
+    {% for item in page.cast %}
+      <li>
+        <b>
+        {%- if item.noLink != true -%}
+          {{ item.name }}
+        {%- else -%}
+          <a href="/assets/images/name/{{ item.name }}">{{ item.name }}</a>
+        {%- endif -%}
+        </b>
+        
+        as
+        <b>{{ item.char }}</b>
+        <img src="/assets/images/name/{{ item.name }}" alt="">
+
+      </li>
+    {% endfor %}
+  </ul>
+</div>
