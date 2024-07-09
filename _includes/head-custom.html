@@ -7,4 +7,38 @@
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
 
+  <!-- og -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:description" content="{{ page.excerpt }}">
+
+  {%- if page.slug -%}
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{page.slug}}.jpg">
+  <meta property="og:image:secure_url" content="{{ site.url }}/assets/images/{{page.collection}}/{{page.slug}}.jpg">
+   {%- else -%}
+     {%- if page.image -%}
+       <meta property="og:image" content="{{ site.url }}/assets/images/{{page.image}}">
+  <meta property="og:image:secure_url" content="{{ site.url }}/assets/images/{{page.image}}">
+      {%- else -%}
+  <meta property="og:image" content="{{ site.url }}/assets/default.jpg">
+  <meta property="og:image:secure_url" content="{{ site.url }}/assets/default.jpg">
+      {%- endif -%}
+  {%- endif -%}
+  
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="433">
+  
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" content="heavensbake.com">
+  <meta name="twitter:site" content="@TeiJuanArt">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta name="twitter:url" content="{{ page.url }}">
+  <meta name="twitter:label1" content="Created:">
+  <meta name="twitter:data1" content="{{ page.date }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{page.collection}}/{{page.slug}}.jpg">
+
 <!-- end custom head snippets -->
