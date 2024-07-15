@@ -3,3 +3,4 @@ medias:
 - { name: 'About Us' , link: '/about' }
 - { name: 'Merch' , link: 'https://shop.heavensbake.com' }
 - { name: 'Contact' , link: '/contact' }
+- { name: 'Donate' , class: 'btn-donate', link: 'https://ko-fi.com/teijuan' }

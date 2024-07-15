@@ -11,7 +11,7 @@
 
   <ul class="buttons-menu-1">
     {% for item in site.data.settings.medias %}
-    <li>
+    <li class="{{ item.class }}">
       {% assign first_char = item.link | slice: 0 %}
       {% if first_char == '/' %}
       <a href="{{ site.url }}/{{ item.link }}"><strong>{{ item.name }}</strong></a></li>
@@ -19,9 +19,6 @@
       <a href="{{ item.link }}"><strong>{{ item.name }}</strong></a></li>
       {% endif %}
       {% endfor %}
-      <li class="btn-donate">
-        <a href="https://ko-fi.com/teijuan"><strong>Support <3</strong></a>
-      </li>
   </ul>
 </header>
 

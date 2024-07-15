@@ -40,13 +40,17 @@ header ul{
           display: block;
       }
 }
+
 header ul li{
+    background: linear-gradient(#77B9FB, #3782CD);
     height: 28px;
-    width: 100px;
+    width: 70px;
 }
 
 .btn-donate{
     background: linear-gradient(#f159ff, #b920ac);
+    width: auto;
+    padding: 00px 10px 0px 10px;
 }
 
 
