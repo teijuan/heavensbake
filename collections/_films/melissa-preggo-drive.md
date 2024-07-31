@@ -23,9 +23,9 @@ Every clip in stage order:
 - [Stage 0](https://www.youtube.com/watch?v=KBRg_Zt6WwM)  
 - [Stage 1](https://www.youtube.com/watch?v=2Li1RPey5Jc)  
 - [Stage 2](https://www.youtube.com/watch?v=pTuFRDlwDzs)
+- [Stage 3](https://youtube.com/watch?v=K3BiN1DwXfg)  
 
 <!--
-- [Stage 3]()  
 - [Stage 2]()  
 - [Stage 2]()  
 - [Stage 2]()  
