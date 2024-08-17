@@ -6,4 +6,4 @@ permalink: /about/
 
 ## Summary
 
-> An indie studio, market leader in adult entertainment focused on pregnancy and motherhood concepts, with a major focus on storytelling rather than mature appealing.
+> An indie studio aiming quality adult entertainment focused on pregnancy and motherhood concepts, with a major focus on sfw storytelling (sometimes a bit more mature).
