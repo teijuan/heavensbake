@@ -18,19 +18,19 @@ trivia: Heavensbake was the first studio to release a 3D animated pregnancy driv
 This is a crowdfunding project, at each $100 a new clip's released with Melissa going through another pregnancy month.  
 Donations are for investing on hardware and courses.
 
+### Donate via [Ko-Fi](https://ko-fi.com/teijuan)
+
 Every clip in stage order: 
 
 - [Stage 0](https://www.youtube.com/watch?v=KBRg_Zt6WwM)  
 - [Stage 1](https://www.youtube.com/watch?v=2Li1RPey5Jc)  
 - [Stage 2](https://www.youtube.com/watch?v=pTuFRDlwDzs)
 - [Stage 3](https://youtube.com/watch?v=K3BiN1DwXfg)  
+- Stage 4  
+- Stage 5  
+- Stage 6  
+- Stage 7  
+- Stage 8  
+- Stage 9  
+- Stage 10  
 
-<!--
-- [Stage 2]()  
-- [Stage 2]()  
-- [Stage 2]()  
-- [Stage 2]()  
-- [Stage 2]()  
-- [Stage 2]()  
-- [Stage 10]()  
--->  
