@@ -2,8 +2,6 @@
 layout: default
 ---
 
-**(Work in progress)**
-
 <button><a href="https://www.youtube.com/@heavensbake/">YouTube</a></button> <button><a href="https://x.com/heavensbake">X</a></button>
 
 
