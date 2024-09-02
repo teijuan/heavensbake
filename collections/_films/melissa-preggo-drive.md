@@ -11,8 +11,7 @@ author:
 
 idytprv: KBRg_Zt6WwM
 
-trivia: Heavensbake was the first studio to release a 3D animated pregnancy drive.
-
+trivia: Heavensbake Studios is the first animation studio to release a 3D animated pregnancy growth drive.
 ---
 
 This is a crowdfunding project, at each $100 a new clip's released with Melissa going through another pregnancy month.  
@@ -20,17 +19,4 @@ Donations are for investing on hardware and courses.
 
 ### Donate via [Ko-Fi](https://ko-fi.com/teijuan)
 
-Every clip in stage order: 
-
-- [Stage 0](https://www.youtube.com/watch?v=KBRg_Zt6WwM)  
-- [Stage 1](https://www.youtube.com/watch?v=2Li1RPey5Jc)  
-- [Stage 2](https://www.youtube.com/watch?v=pTuFRDlwDzs)
-- [Stage 3](https://youtube.com/watch?v=K3BiN1DwXfg)  
-- Stage 4  
-- Stage 5  
-- Stage 6  
-- Stage 7  
-- Stage 8  
-- Stage 9  
-- Stage 10  
-
+<iframe src="https://docs.google.com/spreadsheets/d/1xN-iLrgWNDIP6RVrXpojjV8PA5syL6dA5nw9Aa23_Ts/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 300px;"></iframe>
