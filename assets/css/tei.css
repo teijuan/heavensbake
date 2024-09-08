@@ -18,29 +18,42 @@ button {
     }
 }
 
-header ul{
+.buttons-menu-1 {
     height: 28px;
     position: relative;
     margin: 10px;
+    padding: 0px;
     right: 0px;
     top: 10px;
     width: fit-content;
-    @media print, screen and (max-width: 580px) {
-          display: block;
-      }
 }
 
-header ul li{
-    background: linear-gradient(#77B9FB, #3782CD);
+.buttons-menu-1 li{
     height: 28px;
     width: 70px;
+    
 }
-
 .btn-donate{
     background: linear-gradient(#f159ff, #b920ac);
-    width: auto;
-    padding: 00px 10px 0px 10px;
 }
+
+.btn{
+    background: linear-gradient(#77B9FB, #3782CD);
+}
+
+@media print, screen and (max-width: 580px) {
+    .buttons-menu-1 {
+        width: 95%;
+        height: 140px;
+        display: block;
+    }
+    
+    .buttons-menu-1 li{
+        width: 100%;
+    }
+    
+}
+
 
 
 section{

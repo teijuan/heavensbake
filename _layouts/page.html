@@ -10,11 +10,11 @@ layout: default
 	    {{ page.title | escape }}
 
       {%- if page.isWip == true -%} 
-      <span class="ribbon">Work in Progress</span>
+      <span class="ribbon"><sup><small>&nbsp;(WIP)</small></sup></span>
       {%- endif -%}
 
     </h1>
-
+    <p><strong>{{ page.excerpt }}</strong></p>
   </header>
 
   <div class="post-content">
