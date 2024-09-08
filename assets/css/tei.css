@@ -30,8 +30,8 @@ button {
 
 .buttons-menu-1 li{
     height: 28px;
-    width: 70px;
-    
+    width: auto;
+    padding: 0px 9px;
 }
 .btn-donate{
     background: linear-gradient(#f159ff, #b920ac);
@@ -41,15 +41,21 @@ button {
     background: linear-gradient(#77B9FB, #3782CD);
 }
 
-@media print, screen and (max-width: 580px) {
+@media print, screen and (max-width: 400px) {
+    header{
+        padding: 10px;
+    }
+
     .buttons-menu-1 {
-        width: 95%;
+        width: auto;
         height: 140px;
         display: block;
     }
     
     .buttons-menu-1 li{
         width: 100%;
+        border: none;
+        padding: 0px;
     }
     
 }
