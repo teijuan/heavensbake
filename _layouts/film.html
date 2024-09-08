@@ -1,17 +1,24 @@
 ---
 layout: page
 ---
+
 {% if page.isWip != true %}
 {{ page.released | date: "%b %m, %Y"  }} • {{ site.data.ratings[page.rating] }} • {{ page.duration }}
 {% endif %}
-<p style="width: 100%;float: right">
-  <img class="filmCover" src="{{ site.url }}/assets/images/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
-  
-  {{ page.excerpt }}
-  <br><br>
+<div class="film_desc_container">
+    <div class="film_cover">
+      <img src="{{ site.url }}/assets/images/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
+    </div>
 
-   <!-- Authors -->
-   {% for item in page.author  %}
+    <div class="film_desc">
+      {{ page.description }}
+    </div>
+</div>
+  
+  <!-- Authors -->
+
+<div class="film_cast">
+    {% for item in page.author  %}
     {% if item.noLink == true %}
     <b>{{ item.role }}: </b>{{ item.name }}
     {% else %}
@@ -19,30 +26,30 @@ layout: page
     <b>{{ item.role }}: </b><a href="{{ item.link }}">{{ item.name }}</a>
     {% else %}
     <b>{{ item.role }}: </b><a href="/name/{{ item.name | downcase  | replace: " ", "" }}">{{ item.name }}</a>
-      {% endif %}
+    {% endif %}
     {% endif %}
     <br>
-  {% endfor %}
-
-  {%- if page.callout -%}
-  {% if page.callout[0].size > 0 and page.callout[1].size > 0 and page.callout[2].size > 0 %}
+    {% endfor %}
+    
+    {%- if page.callout -%}
+    {% if page.callout[0].size > 0 and page.callout[1].size > 0 and page.callout[2].size > 0 %}
     {% assign types = "note, abstract, info, tip, success, question, warning, failure, danger, bug, example, quote" | split: ", " %}
-      {% if types contains page.callout[0] %}
-      <div class="admonition {{ page.callout[0] }} rounded">
-        <p class="admonition-title">{{ page.callout[1] }}</p>
-        <p>
-          {{ page.callout[2] }}
-        </p>
-      </div>
-    {% endif %}
-  {% endif %}
-  {%- endif -%}
+    {% if types contains page.callout[0] %}
+    <div class="admonition {{ page.callout[0] }} rounded">
+      <p class="admonition-title">{{ page.callout[1] }}</p>
+      <p>
+        {{ page.callout[2] }}
+      </p>
+      {% endif %}
+      {% endif %}
+      {%- endif -%}
+    </div>
+</div>
+      
 
-  </p>
-
-  {%- if page.idyt -%} {%- include btnYoutube.html -%} {%- endif -%}
-  {%- if page.idgu -%} {%- include btnGumroad.html -%} {%- endif -%}
-  {%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
+{%- if page.idyt -%} {%- include btnYoutube.html -%} {%- endif -%}
+{%- if page.idgu -%} {%- include btnGumroad.html -%} {%- endif -%}
+{%- if page.lnss -%} {%- include btnSubstar.html -%} {%- endif -%}
 
   <!-- Gallery -->
   {% if page.gallery %} 
@@ -50,15 +57,11 @@ layout: page
     {% include carouselGallery.html %}
   {% endif %}
 
-    <br>
-    <hr>
-    <br>
-
   {% if page.idyt %} 
-  <iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idyt }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
+  <iframe class="film_trailer" width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idyt }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
   {% endif %}
   {% if page.idytprv %} 
-  <iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idytprv }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
+  <iframe class="film_trailer" width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.idytprv }}" film="{{ page.film }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; " allowfullscreen></iframe>
   {% endif %}
 
   <!-- Cast -->

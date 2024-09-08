@@ -5,6 +5,8 @@ permalink: /fanmade/
 excerpt: "Fan-made works of our characters"
 ---
 
+**Fan-made artworks and other content casting our characters**
+
 <ul>
 {% for item in site.data.fanmade %}
     {% if item.url %}

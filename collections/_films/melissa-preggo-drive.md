@@ -1,7 +1,7 @@
 ---
 layout: film
 title: Melissa Preggo Drive
-excerpt: "A peek through a really large pregnancy of a little mouse called Melissa"
+description: "A peek through a really large pregnancy of a little mouse called Melissa"
 date: 2024-04-21
 duration: 10~30s
 rating: 2

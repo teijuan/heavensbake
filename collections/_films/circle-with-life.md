@@ -1,6 +1,6 @@
 ---
 title: The Circle with Life
-excerpt: "A short film in celebration of The Lion King's 30th Anniversary."
+description: "A short film in celebration of The Lion King's 30th Anniversary."
 date: 2024-01-03
 rating: 3
 duration: 03m 11s

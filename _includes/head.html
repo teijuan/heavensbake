@@ -1,6 +1,15 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/tei.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- start custom head snippets, customize with your own _includes/head.html file -->
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 
@@ -11,7 +20,10 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:url" content="{{ page.url }}">
-  <meta property="og:description" content="{{ page.excerpt }}">
+
+  {%- if page.excerpt == true -%}
+    <meta property="og:description" content="{{ page.excerpt }}">
+  {%- endif -%}
 
   {%- if page.slug -%}
   <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.collection }}/{{page.slug}}.jpg">
@@ -35,7 +47,9 @@
   <meta name="twitter:domain" content="heavensbake.com">
   <meta name="twitter:site" content="@TeiJuanArt">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.excerpt }}">
+  {%- if page.excerpt == true -%}
+    <meta name="twitter:description" content="{{ page.excerpt }}">
+  {%- endif -%}
   <meta name="twitter:url" content="{{ page.url }}">
   <meta name="twitter:label1" content="Created:">
   <meta name="twitter:data1" content="{{ page.date }}">
