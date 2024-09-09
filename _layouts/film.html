@@ -18,10 +18,13 @@ layout: page
   <!-- Authors -->
 
 <div class="film_cast">
+  <ul>
     {% for item in page.author  %}
-    {% if item.noLink == true %}
-    <b>{{ item.role }}: </b>{{ item.name }}
-    {% else %}
+      <li>
+
+      {% if item.noLink == true %}
+      <b>{{ item.role }}: </b>{{ item.name }}
+      {% else %}
     {% if item.link %} 
     <b>{{ item.role }}: </b><a href="{{ item.link }}">{{ item.name }}</a>
     {% else %}
@@ -29,7 +32,9 @@ layout: page
     {% endif %}
     {% endif %}
     <br>
+    </li>
     {% endfor %}
+</ul>
     
     {%- if page.callout -%}
     {% if page.callout[0].size > 0 and page.callout[1].size > 0 and page.callout[2].size > 0 %}

@@ -23,8 +23,8 @@ button {
 .buttons-menu-1 {
   height: 28px;
   position: relative;
-  margin: 10px;
-  padding: 0px;
+  margin: 10px 0px 10px 0px;
+  padding: 0;
   right: 0px;
   top: 10px;
   width: fit-content;
@@ -43,9 +43,17 @@ button {
   background: linear-gradient(#77B9FB, #3782CD);
 }
 
-@media print, screen and (max-width: 400px) {
+@media print, screen and (max-width: 580px) {
   header{
       padding: 10px;
+  }
+
+  header p.view {
+    display: block;
+  }
+
+  header p {
+    width: 100%;
   }
 
   .buttons-menu-1 {
@@ -53,13 +61,13 @@ button {
       height: 140px;
       display: block;
   }
-  
+
   .buttons-menu-1 li{
       width: 100%;
       border: none;
       padding: 0px;
   }
-  
+
 }
 
 .film_trailer{
@@ -85,11 +93,7 @@ section{
   padding: 10px 0px 10px 0px;
 }
 
-.film_desc_container{
-  width: 100%;
-  float: left;
-  display: block;
-}
+// Film
 
 .film_gallery_cover{
   width: 140px;
@@ -103,9 +107,13 @@ section{
   margin: 10px;
 }
 
+.film_desc_container{
+  width: 100%;
+  float: left;
+  display: block;
+}
 .film_desc{
   margin: 10px;
-  float: left;
 }
 
 .film_cast {
@@ -127,9 +135,9 @@ img{
 
 /* Tei did stuff.. Nvm, he did this whole sheet here.
  \o/
-  B  
+  B
   ll
-  
+
 }
 
 .buttonBuy {
@@ -170,7 +178,7 @@ blockquote {
   top: 0;
   left: 0;
   right: 0;
-  
+
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
@@ -527,16 +535,7 @@ footer p + p {
     float: none;
   }
 }
-@media print, screen and (max-width:580px) {
 
-  header p.view {
-    display: block;
-  }
-
-  header p {
-    width: 100%;
-  }
-}
 @media print {
   header p.view a small:before {
     content: 'at http://github.com/';
