@@ -11,8 +11,6 @@ rating: 2
 released: 2024-04-21
 author:
 - {name: 'Tei Juan', role: 'Creator of Melissa, direction, modeling, and animation', link: 'https://teijuan.com'}
-- {name: 'Tei Juan', role: 'Creator of Melissa, direction, modeling, and animation', link: 'https://teijuan.com'}
-- {name: 'Tei Juan', role: 'Creator of Melissa, direction, modeling, and animation', link: 'https://teijuan.com'}
 
 idytprv: KBRg_Zt6WwM
 

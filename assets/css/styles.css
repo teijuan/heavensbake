@@ -4,6 +4,9 @@ body {
   color: #222;
 }
 
+img {
+  max-width:100%;
+}
 
 button {
   background: linear-gradient(#77B9FB, #3782CD);
@@ -67,7 +70,7 @@ button {
       border: none;
       padding: 0px;
   }
-
+  
 }
 
 .film_trailer{
@@ -77,26 +80,9 @@ button {
   margin-bottom: 20px;
 }
 
-
-
-section{
-  img{
-      margin: 2px;
-      border-radius: 5px;
-      box-shadow:  rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
-  }
-}
-
-.post-header{
-  background: none;
-  border-bottom: none;
-  padding: 10px 0px 10px 0px;
-}
-
-// Film
+/* Film */
 
 .film_gallery_cover{
-  width: 140px;
   height: 200px;
   margin: .5em;
 }
@@ -131,6 +117,21 @@ height: auto;
 img{
   height: 200px;
 }
+}
+
+
+section{
+  img{
+      margin: 2px;
+      border-radius: 5px;
+      box-shadow:  rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+  }
+}
+
+.post-header{
+  background: none;
+  border-bottom: none;
+  padding: 10px 0px 10px 0px;
 }
 
 /* Tei did stuff.. Nvm, he did this whole sheet here.
@@ -422,10 +423,6 @@ blockquote {
   background: #ccc;
   background: rgba(0, 0, 0, 0.06);
   color: #222;
-}
-
-img {
-  max-width:100%;
 }
 
 code, pre {

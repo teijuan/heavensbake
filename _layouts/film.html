@@ -6,9 +6,7 @@ layout: page
 {{ page.released | date: "%b %m, %Y"  }} • {{ site.data.ratings[page.rating] }} • {{ page.duration }}
 {% endif %}
 <div class="film_desc_container">
-    <div class="film_cover">
-      <img src="{{ site.url }}/assets/images/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
-    </div>
+      <img class="film_cover" src="{{ site.url }}/assets/images/films/{{ page.slug }}.jpg" alt="{{ page.title }}">
 
     <div class="film_desc">
       {{ page.description }}
