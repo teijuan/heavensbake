@@ -3,6 +3,11 @@ description: Pregnancy and motherhood concepts
 show_downloads: true
 google_analytics: G-9SSX7F4CJH
 
+plugins: [jekyll-feed, jekyll-seo-tag]
+
+author:              'Tei Juan'
+logo:                '/assets/images/logo.svg'
+
 collections_dir: collections
 collections:
   films:
