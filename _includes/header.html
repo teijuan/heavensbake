@@ -1,8 +1,8 @@
 <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-<div class="section1">
+<aside class="section1">
   <div class="logo">
     <a href="{{ site.url }}">
-      <img src="/assets/images/logo.svg" style="float:left; width: 36px; margin-right: 10px">
+      <img src="/assets/images/logo.svg" style="box-shadow: none; float:left; width: 36px; margin-right: 10px">
       <h1>{{ site.title | default: site.github.repository_name }}<sup><small> Beta</small></sup></h1>
       {% if site.description or site.github.project_tagline %}
       <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -22,10 +22,14 @@
     </li>
     {% endfor %}
   </ul>
-</div> 
-<div class="section1">
-  <img src="/assets/images/banner.jpg">
-</div>
+</aside> 
+
+<aside class="section2">
+  <a href="{{ site.url }}{{ site.data.header.a }}">
+    <img src="{{ site.url }}{{ site.data.header.img }}">
+  </a>
+</aside>
+
 </header>
 
 <!--

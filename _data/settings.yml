@@ -2,6 +2,5 @@ medias:
 - { name: 'News' , class: 'btn', link: '/news' }
 - { name: 'Films' , class: 'btn', link: '/films' }
 - { name: 'Fanmade' , class: 'btn', class: 'btn', link: '/fanmade' }
-- { name: 'About Us' , class: 'btn', link: '/about' }
-#- { name: 'Merch' , link: 'https://shop.heavensbake.com' }
-- { name: 'Donate' , class: 'btn-donate', link: 'https://ko-fi.com/teijuan' }
+- { name: 'About' , class: 'btn', link: '/about' }
+- { name: 'Donate' , class: 'btn', link: 'https://ko-fi.com/teijuan' }

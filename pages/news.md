@@ -4,12 +4,22 @@ title: Newsletter
 permalink: /news
 ---
 
-Subscribe to our newsletter for receiving weekly updates about the company and our projects:
+[**\[Subscribe\]**](/subscribe)
 
-Any suggestions or comments, send us an email: **[contact@heavensbake.com](mailto:contact@heavensbake.com)** 
-
-**Type in your best email address below:**
-
-<script async src="https://eocampaign1.com/form/0989e094-665a-11ef-ab5e-53af622a276e.js" data-form="0989e094-665a-11ef-ab5e-53af622a276e"></script>
-
-Be sure to mark our addresses (**\*@heavensbake.com**) as non-spam and check your spam box if you didn't receive our latest emails.
+<ul class="posts-container">
+  {% for post in site.posts %}
+      {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+      {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+      {% endunless %}
+      <li itemscope>
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
+      </li>
+      {% endfor %}
+</ul>

@@ -4,8 +4,6 @@ layout: default
 
 <button><a href="https://www.youtube.com/@heavensbake/">YouTube</a></button> <button><a href="https://x.com/heavensbake">X</a></button>
 
-[![banner](/assets/images/banner.jpg)](https://heavensbake.com/film/melissa-preggo-drive)
-
 Pregnancy/motherhood concepts by artists from all around the world turned into animations.
 
 SFW +18 clips and artworks

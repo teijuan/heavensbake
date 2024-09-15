@@ -10,6 +10,10 @@ logo:                '/assets/images/logo.svg'
 
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    permalink: /:categories/:title
+    layout: post
   films:
     output: true
     permalink: /film/:slug

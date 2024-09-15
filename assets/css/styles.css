@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 body {
   color: #222;
 }
@@ -25,52 +32,18 @@ button {
 
 .buttons-menu-1 {
   height: 28px;
-  position: relative;
   margin: 10px 0px 10px 0px;
-  padding: 0;
+  padding: 2px;
   right: 0px;
   top: 10px;
   width: fit-content;
+  border-radius: 10px;
 }
 
 .buttons-menu-1 li{
   height: 28px;
-  width: auto;
+  width: fit-content;
   padding: 0px 10px;
-}
-.btn-donate{
-  background: linear-gradient(#f159ff, #b920ac);
-}
-
-.btn{
-  background: linear-gradient(#77B9FB, #3782CD);
-}
-
-@media print, screen and (max-width: 580px) {
-  header{
-      padding: 10px;
-  }
-
-  header p.view {
-    display: block;
-  }
-
-  header p {
-    width: 100%;
-  }
-
-  .buttons-menu-1 {
-      width: auto;
-      height: 140px;
-      display: block;
-  }
-
-  .buttons-menu-1 li{
-      width: 100%;
-      border: none;
-      padding: 0px;
-  }
-  
 }
 
 .film_trailer{
@@ -120,18 +93,31 @@ img{
 }
 
 
-section{
-  img{
-      margin: 2px;
-      border-radius: 5px;
-      box-shadow:  rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
-  }
+img{
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+}
+
+.logo {
+  box-shadow: none;
 }
 
 .post-header{
   background: none;
   border-bottom: none;
   padding: 10px 0px 10px 0px;
+}
+
+
+header .section1 {
+  float: left;
+  display: block;
+}
+
+header .section2 {
+  float: right;
+  width: 50%;
 }
 
 /* Tei did stuff.. Nvm, he did this whole sheet here.
@@ -206,7 +192,7 @@ body {
   padding: 50px 0;
   margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #555;
+  color: #222;
   font-weight: 300;
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
 }
@@ -297,7 +283,6 @@ header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  position: absolute;
   z-index: 1;
   right: 20px;
   top: 20px;
@@ -495,9 +480,44 @@ footer p + p {
   float: right;
 }
 
+
+.posts-container {
+  list-style: none;
+  padding: 0;
+}
+
 @media print, screen and (max-width: 740px) {
   body {
     padding: 0;
+  }
+  
+  header{
+    padding: 10px;
+  }
+  
+  header p.view {
+    display: block;
+  }
+  
+  header p {
+    width: 100%;
+  }
+
+  header .section1 {
+    width: 100%;
+  }
+  
+  .buttons-menu-1 li{
+    width: 13%;
+  }  
+
+  .buttons-menu-1 {
+    width: 100%;
+  }
+  
+    
+  header .section2 {
+    width: 100%;
   }
 
   .wrapper {
