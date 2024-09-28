@@ -9,7 +9,7 @@
       {% endif %}
     </a>
   </div>
-  
+
   <ul class="buttons-menu-1">
     {% assign first_char = item.link | slice: 0 %}
     {% for item in site.data.settings.medias %}
@@ -22,10 +22,10 @@
     </li>
     {% endfor %}
   </ul>
-</aside> 
+</aside>
 
 <aside class="section2">
-  <a href="{{ site.url }}{{ site.data.header.a }}">
+  <a href="{{ site.data.header.a }}">
     <img src="{{ site.url }}{{ site.data.header.img }}">
   </a>
 </aside>
