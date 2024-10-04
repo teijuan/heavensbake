@@ -20,4 +20,3 @@ trivia: Heavensbake Studios is the first animation studio to release a 3D animat
 
 ### Donate via [Ko-Fi](https://ko-fi.com/teijuan)
 
-<iframe src="https://docs.google.com/spreadsheets/d/1xN-iLrgWNDIP6RVrXpojjV8PA5syL6dA5nw9Aa23_Ts/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 300px;"></iframe>
