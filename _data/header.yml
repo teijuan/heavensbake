@@ -1,2 +1,8 @@
-a: 'https://heavensbake.com/halloween-2024'
-img: /assets/images/banner.jpg
+a:
+img:
+medias:
+- { name: 'News' , class: 'btn', link: '/news' }
+- { name: 'Films' , class: 'btn', link: '/films' }
+- { name: 'Shop' , class: 'btn', link: 'https://shop.heavensbake.com' }
+- { name: 'Fanmade' , class: 'btn', class: 'btn', link: '/fanmade' }
+- { name: 'About' , class: 'btn', link: '/about' }

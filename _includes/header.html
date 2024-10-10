@@ -12,7 +12,7 @@
 
   <ul class="buttons-menu-1">
     {% assign first_char = item.link | slice: 0 %}
-    {% for item in site.data.settings.medias %}
+    {% for item in site.data.header.medias %}
     <li class="{{ item.class }}">
       {% if first_char == '/' %}
       <a href="{{ site.url }}/{{ item.link }}"><strong>{{ item.name }}</strong></a></li>
@@ -22,11 +22,14 @@
     </li>
     {% endfor %}
   </ul>
+  <a href='https://ko-fi.com/N4N02UAYV' target='_blank'><img height='36' style='border:0px;height:36px;' src='/assets/images/kofi.png' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </aside>
 
 <aside class="section2">
   <a href="{{ site.data.header.a }}">
+    {% if site.data.header.img %}
     <img src="{{ site.url }}{{ site.data.header.img }}">
+    {% endif %}
   </a>
 </aside>
 
