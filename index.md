@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<button><a href="https://www.youtube.com/@heavensbake/">YouTube</a></button> <button><a href="https://x.com/heavensbake">X</a></button>
+### Pregnancy/motherhood concepts by artists from all around the world.
 
-Pregnancy/motherhood concepts by artists from all around the world turned into animations.
+## About Us
+An indie studio with talented artists dedicating their time and efforts to bring quality adult entertainment focused on pregnancy and motherhood, including CGI-only human and anthro characters.
 
-SFW +18 clips and artworks
+----
 
 A project by [Tei Juan](https://teijuan.com).
 
-----
+<button><a href="https://www.youtube.com/@heavensbake/">YouTube</a></button> <button><a href="https://x.com/heavensbake">X</a></button>

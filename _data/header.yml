@@ -3,6 +3,6 @@ img:
 medias:
 - { name: 'News' , class: 'btn', link: '/news' }
 - { name: 'Films' , class: 'btn', link: '/films' }
+- { name: 'Novels' , class: 'btn', link: '/novels' }
 - { name: 'Shop' , class: 'btn', link: 'https://shop.heavensbake.com' }
 - { name: 'Fanmade' , class: 'btn', class: 'btn', link: '/fanmade' }
-- { name: 'About' , class: 'btn', link: '/about' }

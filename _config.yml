@@ -1,5 +1,5 @@
 title: Heavensbake Studios
-description: Pregnancy and motherhood concepts
+description: Thinking togravider
 show_downloads: true
 google_analytics: G-9SSX7F4CJH
 
@@ -24,8 +24,11 @@ collections:
     layout: name
   characters:
     output: true
-    permalink: /bio/:slug
-
+    permalink: /char/:slug
+  novels:
+    output: true
+    permalink: /novel/:slug
+    image: "/assets/icons/novels/:slug.jpg"
 defaults:
   - scope:
       path: ""
@@ -46,8 +49,8 @@ defaults:
       path: ""
       type: "characters"
     values:
-      layout: bio
-      image: /assets/images/bio/:slug/:slug.jpg
+      layout: character
+      image: "/assets/images/c/:slug/:slug.jpg"
 
 signatureTei: João M. Teixeira, aka. Tei. Juan
 

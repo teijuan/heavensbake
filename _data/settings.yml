@@ -1,6 +1,0 @@
-medias:
-- { name: 'News' , class: 'btn', link: '/news' }
-- { name: 'Films' , class: 'btn', link: '/films' }
-- { name: 'Fanmade' , class: 'btn', class: 'btn', link: '/fanmade' }
-- { name: 'About' , class: 'btn', link: '/about' }
-- { name: 'Donate' , class: 'btn', link: 'https://ko-fi.com/teijuan' }
