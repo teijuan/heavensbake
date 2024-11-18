@@ -1,6 +1,7 @@
 ---
 layout: film
 title: Melissa Preggo Drive
+excerpt: "The progression of a little mouse's gestation called Melissa."
 description: |
     The progression of a little mouse's gestation called Melissa which grows a little more at each clip.  
     This is a crowdfunding project, at each $200 a new clip's released with Melissa going through another pregnancy month.  

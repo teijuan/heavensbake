@@ -1,6 +1,7 @@
 ---
 layout: film
 title: Robin and Marian's Intimity (No audio)
+excerpt: "A short film in celebration of Disney's Robin Hood's 50th Anniversary."
 description: "A short film in celebration of Disney's Robin Hood's 50th Anniversary. Marian receives her husband at home and they have some intimate moment at bed."
 date: 2023-05-27
 duration: 3m 28s
