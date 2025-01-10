@@ -26,4 +26,19 @@ Feeling like she won't be able to do it for much longer, Fui decided that... may
 
 {% include jpg_thumb.html num="03" %}
 
+While waiting for her pic to upload for her fans to see, the babies began to move around and kick like crazy. It wasn't anything she wasn't used to by now, though the timing makes her think they don't like that they were photographed without permission, as humorous as it was.  
+It also dawned on her that she won't be able to experience this for much longer with the twins ready to come any day now. So, she leaned against the sink and relaxed for a few, waiting for the upload while rubbing her stretched belly, letting the twins get their exercise over with - in truth, moving while they are kicking is pretty awkward.
+
+{% include jpg_thumb.html num="04" %}
+
+
+
+{% include jpg_thumb.html num="05" %}
+
+"setting her phone down, Fui made her way towards the shower, her enormous lumbering orb of a pregnant belly leading the way."
+
+
+
+{% include jpg_thumb.html num="06" %}
+
 ## Series still in progress...
