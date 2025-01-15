@@ -1,8 +1,12 @@
-a:
-img:
+# Banner link: "between quotes"
+a: "https://x.com/Gravidtron/status/1870332978444034331"
+
+# Banner image: "/also/between/quotes.jpg"
+img: "/assets/images/banner.jpg"
+
 medias:
+- { name: '🦢🎬' , class: 'btn', link: 'https://watch.heavensbake.com' }
 - { name: 'News' , class: 'btn', link: '/news' }
 - { name: 'Films' , class: 'btn', link: '/films' }
 - { name: 'Novels' , class: 'btn', link: '/novels' }
-- { name: 'Shop' , class: 'btn', link: 'https://shop.heavensbake.com' }
 - { name: 'Fanmade' , class: 'btn', class: 'btn', link: '/fanmade' }
