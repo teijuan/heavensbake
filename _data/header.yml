@@ -2,10 +2,11 @@
 a: "https://watch.heavensbake.com"
 
 # Banner image: "/also/between/quotes.jpg"
-img: "/assets/images/banner.jpg"
+img: "/assets/images/banner.png"
 
 medias:
-- { name: '🦢🎬' , class: 'btn', link: 'https://watch.heavensbake.com' }
+- { name: 'Home' , class: 'btn', link: '/' }
+#- { name: 'Subscribe' , class: 'btn', link: 'https://watch.heavensbake.com' }
 - { name: 'News' , class: 'btn', link: '/news' }
 - { name: 'Films' , class: 'btn', link: '/films' }
 - { name: 'Novels' , class: 'btn', link: '/novels' }
