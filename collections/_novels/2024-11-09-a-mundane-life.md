@@ -20,7 +20,7 @@ Setting her phone down for a second, Fui began taking off her underwear before h
 
 {% include jpg_thumb.html num="02" %}
 
-Feeling like she won't be able to do it for much longer, Fui decided that... maybe, her gaming fans deserved to see what was going on with her life. They were in for a surprise:
+Feeling like she won’t be able to do it for much longer, Fui thought that maybe her gaming fans deserved to see what was going on with her life. They were in for a surprise:
 
 "Hard to believe I'm going to be a mother to twins any second now... it's surreal. And I'm fricken huge; i knew pregnancy would make me huge, but just look at me- i am literally a house. And yet... I think i'll miss this... naaaaah."
 
@@ -31,14 +31,24 @@ It also dawned on her that she won't be able to experience this for much longer 
 
 {% include jpg_thumb.html num="04" %}
 
-
+Setting her phone down, Fui made her way towards the shower, her enormous lumbering orb of a pregnant belly leading the way.
 
 {% include jpg_thumb.html num="05" %}
 
-"setting her phone down, Fui made her way towards the shower, her enormous lumbering orb of a pregnant belly leading the way."
-
-
+She paused to put on a pose for someone. But who could it be?
 
 {% include jpg_thumb.html num="06" %}
+
+> A belly so big that can be seen from behind.
+
+Feeling the warm water wash over her body, Fui felt calm and relaxed.  
+
+"This felt good."
+
+As she washed her hair, she gazed down at her large pregnant belly, feeling her son and daughter rest. The weird thing wasn't that she had a huge belly, but that she could feel them all the time.  
+
+Even when they are doing nothing like now, she can feel their curled-up bodies. That was the weirdest feeling out of this, and strangely enough, one she'll miss once they are born.
+
+{% include jpg_thumb.html num="07" %}
 
 ## Series still in progress...
