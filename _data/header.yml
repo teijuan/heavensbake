@@ -2,7 +2,7 @@
 a: "https://play.heavensbake.com"
 
 # Banner image: "/also/between/quotes.jpg"
-img: "/assets/images/banner.png"
+img:
 
 medias:
 - { name: 'Home' , class: 'btn', link: '/' }
