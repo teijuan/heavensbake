@@ -1,5 +1,5 @@
 title: Heavensbake Studios
-description: Thinking togravider
+description: Furry and Pregnancy media
 show_downloads: true
 google_analytics: G-9SSX7F4CJH
 
@@ -25,6 +25,7 @@ collections:
   characters:
     output: true
     permalink: /char/:slug
+    layout: character
   novels:
     output: true
     permalink: /novel/:slug
